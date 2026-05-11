@@ -6,3 +6,5 @@ mistralai
 sentence-transformers
 python-dotenv
 numpy
+fastapi
+uvicorn
