@@ -16,6 +16,17 @@
 -   **Dual Modes**: Use the **Web App** for a visual experience or the **CLI Tool** for quick terminal-based extraction.
 -   **Mistral AI Integration**: Leverages high-performance LLMs for accurate natural language understanding.
 
+## 🎓 GenAI Course Highlights
+
+This project was developed as part of a comprehensive Generative AI curriculum, covering the following core concepts:
+
+-   **Large Language Models (LLMs)**: Integration and orchestration of state-of-the-art models (Mistral AI).
+-   **Prompt Engineering**: Designing effective System and Human message templates for precise zero-shot extraction.
+-   **Structured Output Parsing**: Converting raw LLM text into validated JSON objects using `PydanticOutputParser`.
+-   **LangChain Orchestration**: Utilizing LangChain to create robust AI pipelines and handle prompt formatting.
+-   **FastAPI for AI Serving**: Building a production-ready API layer to serve model results to a web interface.
+-   **Cloud Deployment**: Deploying AI-powered serverless functions to Vercel with optimized dependency management.
+
 ## 🛠️ Tech Stack
 
 -   **Backend**: Python, [FastAPI](https://fastapi.tiangolo.com/)
