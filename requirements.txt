@@ -1,0 +1,8 @@
+langchain
+langchain-mistralai
+langchain-huggingface
+huggingface_hub
+mistralai
+sentence-transformers
+python-dotenv
+numpy
