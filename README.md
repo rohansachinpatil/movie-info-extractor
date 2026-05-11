@@ -2,6 +2,9 @@
 
 **MovieInfoExtractor** is a modern, AI-powered web application and CLI tool designed to extract structured data from unstructured text about films. Using the power of **Mistral AI**, **LangChain**, and **FastAPI**, it can parse complex paragraphs and turn them into clean, usable movie metadata.
 
+**Live Demo**: [https://movie-info-extractor.vercel.app/](https://movie-info-extractor.vercel.app/)
+
+
 ![Project Preview](https://img.shields.io/badge/AI-Powered-amber?style=for-the-badge)
 ![Tech Stack](https://img.shields.io/badge/FastAPI-LangChain-ink?style=for-the-badge)
 
@@ -32,8 +35,8 @@
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/rohansachinpatil/movie_recommendation_system.git
-    cd movie_recommendation_system
+    git clone https://github.com/rohansachinpatil/movie-info-extractor.git
+    cd movie-info-extractor
     ```
 
 2.  **Set up a virtual environment**:
@@ -58,23 +61,22 @@
 ### 1. Web Application (Recommended)
 Launch the interactive web interface:
 ```bash
-python MovieInfoExtractor/app.py
+python app.py
 ```
 Open your browser and navigate to `http://127.0.0.1:8000`.
 
 ### 2. CLI Tool
 For quick extraction directly in your terminal:
 ```bash
-python MovieInfoExtractor/core.py
+python core.py
 ```
 
 ## 🏗️ Project Structure
 
 ```text
-movie_recommendation_system/
-├── MovieInfoExtractor/
-│   ├── app.py           # Unified Web App (FastAPI + UI)
-│   └── core.py          # CLI-based extraction logic
+movie-info-extractor/
+├── app.py               # Unified Web App (FastAPI + UI)
+├── core.py              # CLI-based extraction logic
 ├── .env                 # API Keys (not in git)
 ├── requirements.txt     # Project dependencies
 └── README.md            # You are here!
