@@ -1,10 +1,6 @@
-langchain
-langchain-mistralai
-langchain-huggingface
-huggingface_hub
-mistralai
-sentence-transformers
-python-dotenv
-numpy
 fastapi
 uvicorn
+python-dotenv
+langchain-mistralai
+langchain-core
+pydantic
